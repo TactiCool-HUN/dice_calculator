@@ -1,0 +1,30 @@
+The app will have two modes:
+- evaluate
+- compare
+
+In evaluate mode you can input either dice with standard dice notation, or input a spell name (and optionally level) and get its statistics.
+Statistics will include:
+- Evaluation ID (useful for compare)
+- Original roll / spell request
+- Average outcome of the roll
+- Minimum and Maximum of the roll
+- Chance to beat a target number? might be actually hard to do with really complex rolls, I'll have to think about it
+
+In "compare" you can give up to two Evaluation IDs and see previous evaluations / compare their results
+
+
+Requirements:
+- using variables (I think this comes in any way)
+- using conditional statements (This will at minimum be in the mode swap)
+- using collections and loops (The app itself will be a big loop, but also will be in for example complex roll reading)
+	- lists, dictionaries (list, sure, easy. directory, I'll look for a place, although I plan to use a class for the evaluation results)
+- creating your own functions (will do, I like to split my code into utility functions)
+- using JSON data (either file or internet API) (the api request will have me handling JSON)
+
+
+-----------------
+Statistics:
+minimum outcome
+maximum outcome
+mean
+variance
